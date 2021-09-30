@@ -80,8 +80,9 @@ handLeft = Handy.hands.getLeft()
 
 
 ````
+Note that both the hand objects and camera must be added to the scene before Handy.makeHandy or Handy.update is called.
 
-Put this one command in your animation loop to update all handified 
+Then, put this one command in your animation loop to update all handified 
 objects.
 ```javascript
 
